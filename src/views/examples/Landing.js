@@ -81,16 +81,16 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        A software developer student - Mechatronics Enginner  {" "}
+   
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Iam studying in ASAC here since 3 mounths to be a programmer.Also I am amechtronics enginner and I trained in UVEDCO company
+                        in mechatronics engineering department.
                       </p>
+                                           <span>My projects:</span>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -111,7 +111,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -148,12 +148,15 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Moros Tracker For Vaccine
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            The Ministry of Health wants to collect data about what type of vaccine people took,
+                            what type of side effects or symptoms they had afterwards, and hard data from people
+                            who already experienced taking the vaccines. So that they can give general information to other countries.
+                            So,The Ministry of Health wants to build an application that has a form where you can share your experience after taking a vaccine,
+                            a page to show statistics based on the information from the form, a general data tab about vaccines,
+                            a page where you can view the places where you can take vaccines, and a Quiz to test your knowledge about the vaccines in general.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -184,12 +187,11 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                          Desin a tool to measure the reaction time of patients 
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           We design a tool to measure the reaction time of patients who has a problems in hearing
+                           and to help the hypercuses patients.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
